@@ -1,0 +1,69 @@
+.offer-card{
+    max-width: 280px;
+    background-color: var(--neutral-blue-900);
+
+
+    padding: 16px;
+    border-radius: 16px;
+}
+.card-header img{
+    border-radius: 16px;
+}
+.card-body{
+    margin-top: 16px;
+}
+.card-title{
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.card-desc{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.offer-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.offer-details img {
+    width: 16px; 
+    height: auto;
+}
+
+.price-wrapper {
+    color: var(--cyan-400);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+}
+
+.time-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.card-footer{
+    display: flex; 
+    align-items: center;
+    gap: 16px;
+    border-top: solid 1px var(--neutral-blue-800);
+    padding-top: 16px;
+}
+.avatar-container {
+    width: 33px;
+    height: 33px;
+    border: solid 1px var(--white); 
+    border-radius: 50%;
+}
+.creator-info {
+    font-size: 15px;
+}
+.creator-name{
+    color: white;
+}
